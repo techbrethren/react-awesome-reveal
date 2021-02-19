@@ -1,4 +1,4 @@
-# React Awesome Reveal
+# React Awesome Reveal - With Reduced Motion
 
 [![Version](https://badgen.net/npm/v/react-awesome-reveal)](https://www.npmjs.com/package/react-awesome-reveal/v/latest)
 [![Last Commit](https://badgen.net/github/last-commit/dennismorello/react-awesome-reveal)](https://github.com/dennismorello/react-awesome-reveal/commits/master)
@@ -11,21 +11,23 @@
 
 ## Table Of Contents
 
-- [Features](#features)
-- [Demo](#demo)
-- [Installation](#installation)
-- [Quick Start](#quick-start)
-- [Supported Effects](#supported-effects)
-  - [Attention Seekers](#attention-seekers)
-  - [Props](#props)
-  - [Example](#example)
-  - [Chaining Multiple Animations](#chaining-multiple-animations)
-- [Custom Animations](#custom-animations)
-  - [Other Props](#other-props)
-- [Intersection Observer](#intersection-observer)
-  - [Polyfill](#polyfill)
-- [Past Releases](#past-releases)
-- [License](#license)
+- [React Awesome Reveal - With Reduced Motion](#react-awesome-reveal---with-reduced-motion)
+  - [Table Of Contents](#table-of-contents)
+  - [Features](#features)
+  - [Demo](#demo)
+  - [Installation](#installation)
+  - [Quick Start](#quick-start)
+  - [Supported Effects](#supported-effects)
+    - [Attention Seekers](#attention-seekers)
+    - [Props](#props)
+    - [Example](#example)
+    - [Chaining Multiple Animations](#chaining-multiple-animations)
+  - [Custom Animations](#custom-animations)
+    - [Other Props](#other-props)
+  - [Intersection Observer](#intersection-observer)
+    - [Polyfill](#polyfill)
+  - [Past Releases](#past-releases)
+  - [License](#license)
 
 ## Features
 
