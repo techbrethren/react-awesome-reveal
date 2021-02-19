@@ -8,7 +8,7 @@ import fadeInLeft from "./animations/fading_entrances/fadeInLeft";
 import { isEmpty, isStringLike } from "./utils/js-types";
 import { getAnimationCss } from "./utils/animations";
 
-import usePrefersReducedMotion from "./usePrefersReducedMotion";
+import usePrefersReducedMotion from "./utils/usePrefersReducedMotion";
 
 const hiddenCss = css`
   opacity: 0;
@@ -108,7 +108,7 @@ const Reveal: FC<RevealProps> = ({
   }
 
   if (prefersReducedMotion) {
-    return children;
+    return <>{children}</>;
   }
 
   if (isStringLike(children)) {
