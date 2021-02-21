@@ -28,9 +28,9 @@
   "bugs": {
     "url": "https://github.com/dennismorello/react-awesome-reveal/issues"
   },
-  "main": "dist/index.js",
-  "module": "dist/react-awesome-reveal.esm.js",
-  "typings": "dist/index.d.ts",
+  "main": "./dist/index.js",
+  "module": "./dist/react-awesome-reveal.esm.js",
+  "typings": "./dist/index.d.ts",
   "files": [
     "dist"
   ],
@@ -39,6 +39,7 @@
     "start": "tsdx watch",
     "build": "tsdx build",
     "test": "tsdx test --passWithNoTests",
+    "preinstall": "tsdx build",
     "lint": "tsdx lint src",
     "prepare": "tsdx build",
     "size": "size-limit",
