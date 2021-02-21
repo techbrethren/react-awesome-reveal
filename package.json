@@ -39,7 +39,6 @@
     "start": "tsdx watch",
     "build": "tsdx build",
     "test": "tsdx test --passWithNoTests",
-    "postinstall": "tsdx build",
     "lint": "tsdx lint src",
     "prepare": "tsdx build",
     "size": "size-limit",
